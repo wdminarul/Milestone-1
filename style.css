@@ -112,17 +112,23 @@ h3 {
 
 }
 
+.flexible h1 {
+    font-size: 40px;
+    ;
+}
+
 .half-width-1 {
     width: 40%;
-    box-shadow: rgba(95, 92, 92, 0.35) -5px -5px 10px;
-    box-shadow: rgba(95, 92, 92, 0.35) 5px 5px 10px;
+    box-shadow: rgba(95, 92, 92, 0.35) -10px -8px 10px;
+    box-shadow: rgba(95, 92, 92, 0.35) 10px 10px 10px;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 10px;
-    padding-right: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-left: 10px solid;
     border-image: linear-gradient(#FF6D4F, #f88169);
     border-image-slice: 1;
+    height: 390px;
 
 }
 
@@ -132,10 +138,13 @@ h3 {
     box-shadow: rgba(95, 92, 92, 0.35) 5px 5px 10px;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 15px;
-    border-left: 8px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-left: 10px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+    height: 390px;
+
 }
 
 .half-width h1 {
