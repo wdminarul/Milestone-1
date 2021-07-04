@@ -99,3 +99,52 @@ h3 {
     background-position: right;
 
 }
+
+.session-3 {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+}
+
+.flexible {
+    display: flex;
+
+}
+
+.half-width-1 {
+    width: 40%;
+    box-shadow: rgba(95, 92, 92, 0.35) -5px -5px 10px;
+    box-shadow: rgba(95, 92, 92, 0.35) 5px 5px 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 8px;
+    border-left: 10px solid;
+    border-image: linear-gradient(#FF6D4F, #f88169);
+    border-image-slice: 1;
+
+}
+
+.half-width-2 {
+    width: 40%;
+    box-shadow: rgba(95, 92, 92, 0.35) -5px -5px 10px;
+    box-shadow: rgba(95, 92, 92, 0.35) 5px 5px 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.half-width h1 {
+    font-size: 40px;
+    ;
+    font-weight: bold;
+}
+
+.copy p {
+    color: #696969;
+    text-align: center;
+}
