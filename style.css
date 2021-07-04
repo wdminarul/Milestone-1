@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    margin-top: -25px;
 }
 
 h1 {
@@ -11,6 +10,12 @@ h1 {
 
 session {
     display: flex;
+    margin-bottom: 150px;
+}
+
+.session-2 {
+    display: flex;
+    ;
 }
 
 .top-banner {
@@ -65,4 +70,32 @@ h3 {
 .button {
     text-decoration: none;
     padding: 10px 40px;
+}
+
+
+
+.images-part-1 {
+    width: 50%;
+}
+
+.images-part-1 img {
+    width: 80%;
+    padding-left: 10%;
+}
+
+.dev-1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text-part-1 {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.top-banner-1 {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
